@@ -47,6 +47,8 @@ Therefore the outcome of the project is hopeful towards developing a model that 
  
  3.domain expertise oriented tokenisation of estimation of nutrition content for language model being used.Lot of scope in the fine tuning of LLM based data generation.
  
- 4.Suggestion on the model itself. Domain experts based utility functions finetuning
+ 4.Suggestion on the model itself. Domain experts based utility functions finetuning.
  
- 5.Further testing and implementation of results with real users.
+ 5. Introducing a long term time series component
+
+ 6.Further testing and implementation of results with real users.
