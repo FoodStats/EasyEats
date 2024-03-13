@@ -32,14 +32,21 @@ The USP of the product is it aims for a more structured and healthier consumptio
 Therefore the outcome of the project is hopeful towards developing a model that can recommend items based on user utility in this domain.
 
 ## Current status 
-1.Dataset generation: An intermediate method of using language models to judge the nutrition content and calorific count for each dish based on its description.
-2.User utility generation: being generated as per need. Instead of time series, meals are being averaged out by total calories per day/ number of meals. Implicit criteria are frequency of attribute,browse time.
-3.Utility function: An IU-SLSQP (Implicit utility with Sequential Least square optimizer for non linear programming) for tastes with explicit utility for Nutrition price and rating combined over a Multi Atribute Utility Theory function (MAUTF). IU-GA (Genetic algorithm also explored)
-4.Evaluation: base results run, with acceptible outcomes.
+ 1.Dataset generation: An intermediate method of using language models to judge the nutrition content and calorific count for each dish based on its description.
+ 
+ 2.User utility generation: being generated as per need. Instead of time series, meals are being averaged out by total calories per day/ number of meals. Implicit criteria are frequency of attribute,browse time.
+ 
+ 3.Utility function: An IU-SLSQP (Implicit utility with Sequential Least square optimizer for non linear programming) for tastes with explicit utility for Nutrition price and rating combined over a Multi Atribute Utility Theory function (MAUTF). IU-GA (Genetic algorithm also explored)
+ 
+ 4.Evaluation: base results run, with acceptible outcomes.
 
 ## Future Scope
-1.building an app/web interface.
-2.using the said interface for crawlers to collect implicit utility data, ie. frequency of attribute,browse time.
-3.domain expertise oriented tokenisation of estimation of nutrition content for language model being used.Lot of scope in the fine tuning of LLM based data generation.
-4.Suggestion on the model itself. Domain experts based utility functions finetuning
-4.Further testing and implementation of results with real users.
+ 1.building an app/web interface.
+ 
+ 2.using the said interface for crawlers to collect implicit utility data, ie. frequency of attribute,browse time.
+ 
+ 3.domain expertise oriented tokenisation of estimation of nutrition content for language model being used.Lot of scope in the fine tuning of LLM based data generation.
+ 
+ 4.Suggestion on the model itself. Domain experts based utility functions finetuning
+ 
+ 5.Further testing and implementation of results with real users.
