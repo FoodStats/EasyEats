@@ -55,6 +55,7 @@ Therefore the outcome of the project is hopeful towards developing a model that 
 
 ## Link to demo 
  **The model in this demo running on a faker based random dataset, which may not be representative of the actual food items' nutritional value**
-https://1drv.ms/v/s!Anx0GYahDy2djxmMKHyT08unSnBZ?e=NGQrUa
+ 
+ https://1drv.ms/v/s!Anx0GYahDy2djxmMKHyT08unSnBZ?e=NGQrUa
 
 
