@@ -35,7 +35,7 @@ Therefore the outcome of the project is hopeful towards developing a model that 
  1.Dataset generation: An intermediate method of using language models to judge the nutrition content and calorific count for each dish based on its description.
  
  2.User utility generation: being generated as per need. Instead of time series, meals are being averaged out by total calories per day/ number of meals. Implicit criteria are frequency of attribute,browse time.
- 
+
  3.Utility function: An IU-SLSQP (Implicit utility with Sequential Least square optimizer for non linear programming) for tastes with explicit utility for Nutrition price and rating combined over a Multi Atribute Utility Theory function (MAUTF). IU-GA (Genetic algorithm also explored)
  
  4.Evaluation: base results run, with acceptible outcomes.
@@ -54,6 +54,7 @@ Therefore the outcome of the project is hopeful towards developing a model that 
  6.Further testing and implementation of results with real users.
 
 ## Link to demo 
+ **The model in this demo running on a faker based random dataset, which may not be representative of the actual food items' nutritional value**
 https://1drv.ms/v/s!Anx0GYahDy2djxmMKHyT08unSnBZ?e=NGQrUa
 
 
