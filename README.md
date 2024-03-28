@@ -16,11 +16,10 @@ _**Update:**_
 The component of collaborative filtering and content based filtering has been combined into a single implicty utilty function
 
 ## Challenges
-**Datasets**: Limited item options from particular convenience stores or restaurants limit the datasets.
-**Bypassing Variance**: Reliance on user participation can be bypassed using content based filtering.
-**Parameter Tuning**: Weighing the priority of a general healthy diet with user specialized data in forming recommendations.
-Considerations for palette and budget
-**Time Series Component:** Consideration of all meals consumed by the user on a daily, weekly, or monthly scale to form recommendations.
+- **Datasets**: Limited item options from particular convenience stores or restaurants limit the datasets.
+- **Bypassing Variance**: Reliance on user participation can be bypassed using content based filtering.
+- **Parameter Tuning**: Weighing the priority of a general healthy diet with user specialized data in forming recommendations in considerations for palette and budget.
+- **Time Series Component:** Consideration of all meals consumed by the user on a daily, weekly, or monthly scale to form recommendations.
 
 ## Road map
 1. Dataset generation: Fan
@@ -74,6 +73,7 @@ K-->L;
 
 
 ## Current status 
+The model is an instance based model, i.e recommendations are generated on a meal to meal basis
  1.Dataset generation: An intermediate method of using language models to judge the nutrition content and calorific count for each dish based on its description. Data is created for 1 zipcode in Dallas and 1 in Austin, texas.
  
  2.User utility generation: being generated as per need. Instead of time series, meals are being averaged out by total calories per day/ number of meals. Implicit criteria are frequency of attribute,browse time.
@@ -83,20 +83,17 @@ K-->L;
  4.Evaluation: base results run, with acceptible outcomes. Basic GUI Achieved. Th
 
 ## Future Scope
- 1.building an app/web interface.
- 
- 2.using the said interface for crawlers to collect implicit utility data, ie. frequency of attribute,browse time.
- 
- 3.domain expertise oriented tokenisation of estimation of nutrition content for language model being used.Lot of scope in the fine tuning of LLM based data generation.
+ 1. building an app/web interface.
+ 2. Building SaaS inform of API.
+ 3.  using the said interface for crawlers to collect implicit utility data, ie. frequency of attribute,browse time.
+ 4.  domain expertise oriented tokenisation of estimation of nutrition content for language model being used. Lot of scope in the fine tuning of LLM based data generation.
   > [!Tip]
   > Possible approach
   >  An approach would be to leverage a USDA datasets for individual ingredients to leverage an NLP encoder such as BERT to tokenise nutritional content based of dish discriptions/ recipes. 
  
- 4.Suggestion on the model itself. Domain experts based utility functions finetuning.
- 
- 5. Introducing a long term time series component
-
- 6.Further testing and implementation of results with real users.
+ 5. Suggestion on the model itself. Domain experts based utility functions finetuning.
+ 6. Introducing a long term time series component
+ 7. Further testing and implementation of results with real users.
 
  ## How can you contribute?
  1) **Data!!!** - Currently the project can massively benefit from verified nutritional data from restaurants.
