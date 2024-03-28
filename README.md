@@ -12,7 +12,8 @@ Developing a **service that integrates with E-Carts** of food order, convenience
 ## Scope of this hackathon.
 For the scope of this hackathon, the focus will be on working towards the recommender system.
 The current planned approach is to use a **temporal hybrid recommender system**, that combines collaborative filtering and Content based filtering, for time series data.
-
+_**Update**_
+The component of collaborative filtering and content based filtering has been combined into a single implicty utilty function
 ## Challenges
 **Datasets**: Limited item options from particular convenience stores or restaurants limit the datasets.
 **Bypassing Variance**: Reliance on user participation can be bypassed using content based filtering.
@@ -31,14 +32,18 @@ Considerations for palette and budget
 The USP of the product is it aims for a more structured and healthier consumption of ready to eat, order to eat meals for regular consumers to promote a healthier lifestyle.
 Therefore the outcome of the project is hopeful towards developing a model that can recommend items based on user utility in this domain.
 
+## Technical differentiators
+- Currently the use of utility based 
+
+
 ## Current status 
- 1.Dataset generation: An intermediate method of using language models to judge the nutrition content and calorific count for each dish based on its description.
+ 1.Dataset generation: An intermediate method of using language models to judge the nutrition content and calorific count for each dish based on its description. Data is created for 1 zipcode in Dallas and 1 in Austin, texas.
  
  2.User utility generation: being generated as per need. Instead of time series, meals are being averaged out by total calories per day/ number of meals. Implicit criteria are frequency of attribute,browse time.
 
  3.Utility function: An IU-SLSQP (Implicit utility with Sequential Least square optimizer for non linear programming) for tastes with explicit utility for Nutrition price and rating combined over a Multi Atribute Utility Theory function (MAUTF). IU-GA (Genetic algorithm also explored)
  
- 4.Evaluation: base results run, with acceptible outcomes.
+ 4.Evaluation: base results run, with acceptible outcomes. Basic GUI Achieved.
 
 ## Future Scope
  1.building an app/web interface.
@@ -53,9 +58,7 @@ Therefore the outcome of the project is hopeful towards developing a model that 
 
  6.Further testing and implementation of results with real users.
 
-## Link to demo 
- **The model in this demo running on a faker based random dataset, which may not be representative of the actual food items' nutritional value**
- 
+## Link to demo  
  https://1drv.ms/v/s!Anx0GYahDy2djxmMKHyT08unSnBZ?e=NGQrUa
 
 
