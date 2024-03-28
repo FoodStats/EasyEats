@@ -12,7 +12,9 @@ Developing a **service that integrates with E-Carts** of food order, convenience
 ## Scope of this hackathon.
 For the scope of this hackathon, the focus will be on working towards the recommender system.
 The current planned approach is to use a **temporal hybrid recommender system**, that combines collaborative filtering and Content based filtering, for time series data.
-_**Update**_
+
+_**Update:**_
+
 The component of collaborative filtering and content based filtering has been combined into a single implicty utilty function
 ## Challenges
 **Datasets**: Limited item options from particular convenience stores or restaurants limit the datasets.
