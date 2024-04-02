@@ -1,5 +1,5 @@
-# V1
 Making food recommendations easy! 
+
 #### _EasyEats is a proud part of [FoodStats](https://github.com/FoodStats)_ ####
 
 
