@@ -137,7 +137,39 @@ K-->L;
 ### UI + hosting -> Streamlit 
 ### Algorithm -> SciPy optimisers,Pandas
 ### Backend -> FastAPI
-
+### Algorithm/Framework
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#abdbe3',
+      'primaryTextColor': '#21130d',
+      'lineColor': '#F8B229',
+    }
+  }
+}%%
+graph TD;
+ A[(User browsed Item data)]
+ B(Explicit nutrient characteristics extracted)
+ C(Attribute value utility exaction-Flavours)
+ D(Item holistic utility extraction-Browsing time)
+ E(bi directional least distance explicit function)
+ F(Attribute weight extraction using SLSQP)
+ G(User’s MAU function model building)
+ H(Item utility calculation by MAU function)
+ I[Recommendation]
+ A-->B
+ A-->C
+ A-->D
+ B-->E
+ D-->F
+ C-->F
+ F-->G
+ G-->H
+ E-->H
+ H-->I
+```
 ## Future Scope ⏫
  1. Refining app/web interface.
  2. API destribution.
