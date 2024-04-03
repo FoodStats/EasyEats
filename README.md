@@ -51,7 +51,7 @@ D-->G-->H
 ## Road map 🛤️
 1. Dataset generation: Estimating the nutritional value possible allergens for the restaurant menus.
 2. User utility generation: Based on various explicit / implicit considerations developing a user utility extraction function.
-3. User requirement generatation:Calculation of explicit traits such as
+3. User requirement generation:Calculation of explicit traits such as
    - Recommended calorie intake
    - Nutritional requirements based on diet goals
    - Flavour profile/palette of the user
