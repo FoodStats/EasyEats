@@ -92,7 +92,7 @@ D-->G-->H
     - _IU-GA (Genetic algorithm also explored)_
 5. Evaluation: base results run, with acceptible outcomes.
 6. GUI Achieved.
-7. Backend API developed.
+7. Backend API in development.
 
 >[!NOTE]
 >The model is an instance based model, i.e recommendations are generated on a meal to meal basis.
