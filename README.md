@@ -51,7 +51,7 @@ D-->G-->H
 ## Road map 🛤️
 1. Dataset generation: Estimating the nutritional value possible allergens for the restaurant menus.
 2. User utility generation: Based on various explicit / implicit considerations developing a user utility extraction function.
-3. User requirement generatation:Calculation of explicit traits such as
+3. User requirement generation:Calculation of explicit traits such as
    - Recommended calorie intake
    - Nutritional requirements based on diet goals
    - Flavour profile/palette of the user
@@ -92,7 +92,7 @@ D-->G-->H
     - _IU-GA (Genetic algorithm also explored)_
 5. Evaluation: base results run, with acceptible outcomes.
 6. GUI Achieved.
-7. Backend API developed.
+7. Backend API in development.
 
 >[!NOTE]
 >The model is an instance based model, i.e recommendations are generated on a meal to meal basis.
