@@ -199,6 +199,9 @@ The core dataset being used can be found [here](https://www.kaggle.com/datasets/
 ## Link to demo 🔗
  https://1drv.ms/v/s!Anx0GYahDy2djxmMKHyT08unSnBZ?e=NGQrUa
 
+## Link to presentation 🔗
+https://docs.google.com/presentation/d/1Cc-pfB8ahdoiOyHFwj5G0juud1EJzBHcK-qNmSQRJJw/edit?usp=sharing
+
 ## Created by 👦
 [Darsh Agarwal](https://github.com/Blastemperor406)
 
