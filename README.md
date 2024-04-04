@@ -185,9 +185,9 @@ graph TD;
  ## How can you contribute? 🤝
  1) **Data!!!** - Currently the project can massively benefit from verified nutritional data from restaurants.
 > [!IMPORTANT]  
->  A huge challenge is the issue of intellectual disclosure of recipes and ingridients from the restaurants.
+>  A huge challenge is the issue of intellectual disclosure of recipes and ingredients from the restaurants.
 > Therefore Cooperation is needed.
-2) **Explicit utility function contribution** - The user cases currently covered in the system are based around weight goals. Contributions are appriciated for other dietry goal related functions modelled as per the systems heurestics.
+2) **Explicit utility function contribution** - The user cases currently covered in the system are based around weight goals. Contributions are appreciated for other dietary goal related functions modelled as per the systems heuristics.
 3) **Optimisation techniques** - Algebraic and genetic approaches to optimisation have been explored. Approaches for reaching better optimisations are welcome!
 4) **Feature suggestions** - adding relevant features in the recommender system for producing more tailored suggestions.
 
