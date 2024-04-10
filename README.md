@@ -196,8 +196,12 @@ graph TD;
 The core dataset being used can be found [here](https://www.kaggle.com/datasets/darshagarwal41/ubereats-available-items-food-misc-dataset?rvi=1)
 
 
-## Link to demo 🔗
- https://1drv.ms/v/s!Anx0GYahDy2djxmMKHyT08unSnBZ?e=NGQrUa
+## Demo
+
+
+https://github.com/FoodStats/EasyEats/assets/68748407/fe08e6e4-5f0d-4700-9efb-e6a436c95770
+
+
 
 ## Link to presentation 🔗
 https://docs.google.com/presentation/d/1Cc-pfB8ahdoiOyHFwj5G0juud1EJzBHcK-qNmSQRJJw/edit?usp=sharing
